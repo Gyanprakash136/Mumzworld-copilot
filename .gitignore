@@ -28,8 +28,6 @@ data/chroma/
 data/mumzworld.db
 data/eval_results_*.json
 
-# Streamlit cache
-.streamlit/
 
 # macOS
 .DS_Store
