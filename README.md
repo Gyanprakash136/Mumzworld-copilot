@@ -283,7 +283,8 @@ These map to Mumzworld's two highest-volume customer touchpoints. The combinatio
 | **Pydantic v2** | Schema validation and enforcement on all structured outputs |
 | **Streamlit** | Production UI with custom dark theme |
 | **SQLite** | Canonical product store, zero-config |
-| **Antigravity (Google DeepMind)** | AI coding assistant — primary development harness |
+
+
 
 
 
