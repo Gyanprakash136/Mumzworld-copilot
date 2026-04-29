@@ -277,28 +277,28 @@ These map to Mumzworld's two highest-volume customer touchpoints. The combinatio
 
 | Tool | Role |
 |------|------|
-| **Groq API** | LLM inference — Llama 3.3 70B Versatile (128k context) |
+| **Groq API** | LLM inference — Llama 3.3 70B Versatile (128k context, free tier) |
 | **ChromaDB** | Local persistent vector index, cosine similarity |
-| **sentence-transformers** | Local embedding generation (all-MiniLM-L6-v2, CPU) |
+| **sentence-transformers** | Local embedding generation (all-MiniLM-L6-v2, CPU, no API) |
 | **Pydantic v2** | Schema validation and enforcement on all structured outputs |
 | **Streamlit** | Production UI with custom dark theme |
 | **SQLite** | Canonical product store, zero-config |
-| **Antigravity (Google DeepMind)** | AI coding assistant — pair programming |
+| **Antigravity (Google DeepMind)** | AI coding assistant — primary development harness |
 
-### How Antigravity was used
+### How I used Antigravity (interaction modes)
 
-| Phase | Usage |
-|-------|-------|
-| **Architecture** | Initial system design, directory structure, module separation |
-| **Code generation** | All files generated via agent loops with explicit reasoning before edits |
-| **Debugging** | Identified stale model imports after LLM provider switch; fixed ChromaDB watcher noise in Streamlit |
-| **Refactoring** | Cleaned up `QWEN_MODEL`/`DEEPSEEK_MODEL` aliases after Groq migration without being asked |
-| **Eval design** | 4-dimension rubric design and test case selection |
+| Phase | Mode | What happened |
+|-------|------|---------------|
+| **Architecture design** | Pair-coding | Described the spec; agent proposed module boundaries (`core/`, `db/`, `tools/`, `models/`) and I approved the structure before any code was written |
+| **Initial scaffolding** | Full agent loop | Agent read the spec, reasoned about dependencies, then wrote all files in sequence — `schemas.py` → `database.py` → `retrieval.py` → `router.py` → `gift_finder.py` → `support.py` → `main.py` |
+| **LLM provider migration** | Full agent loop | When OpenRouter models returned 404, the agent diagnosed the issue, fetched the live model list from the OpenRouter API, identified correct free model IDs, and updated `llm_client.py` — I only confirmed the final provider choice (Groq) |
+| **ChromaDB integration** | Full agent loop | Agent replaced Pinecone with ChromaDB across `retrieval.py`, `seed_db.py`, and `requirements.txt` in one pass, including the auto-sync-on-empty logic |
+| **Eval design** | Pair-coding | I specified the 4 rubric dimensions (route, response, escalation, uncertainty); agent implemented the scoring loop, table formatting, and JSON export |
+| **UI rewrite** | One-shot generation | Described "production-level dark theme" → agent generated the full Streamlit CSS + component layout in one call |
+| **README** | Iterative | Three rounds: initial draft → gap analysis against assignment spec → full rewrite to cover all required sections |
 
 ### What worked
 
-- Agent-driven generation significantly accelerated RAG pipeline setup
-- The agent proactively identified misleading comments after a model change (comments said "DeepSeek R1" while Groq was running)
 - Streamlit config fix (file watcher → `none`) was diagnosed and applied without manual debugging
 
 ### What didn't work
