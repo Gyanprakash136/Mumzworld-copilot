@@ -1,0 +1,17 @@
+# Core API + web
+openai
+python-dotenv
+requests
+
+# Data layer
+chromadb
+sentence-transformers
+
+# Validation
+pydantic
+
+# UI
+streamlit
+
+# Data handling
+pandas

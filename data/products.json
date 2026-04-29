@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "PureSoft Organic Newborn Diapers Size 1",
+    "category": "Diapering",
+    "price_aed": 85,
+    "tags": ["organic", "newborn", "hypoallergenic", "biodegradable", "soft"],
+    "age_range": "0-6 months",
+    "description": "Ultra-soft organic cotton diapers designed for newborn delicate skin. Free from chlorine, latex, and fragrances. Wetness indicator and breathable back sheet."
+  },
+  {
+    "id": 2,
+    "name": "Little Voyager Compact Travel Stroller",
+    "category": "Gear",
+    "price_aed": 420,
+    "tags": ["travel", "lightweight", "compact", "foldable", "airplane_friendly"],
+    "age_range": "6-12 months",
+    "description": "Ultra-lightweight travel stroller weighing only 5.8kg. One-hand fold mechanism fits overhead bins. Perfect for Dubai mall trips and international travel."
+  },
+  {
+    "id": 3,
+    "name": "SnuggleNest Anti-Colic Feeding Bottle Set",
+    "category": "Feeding",
+    "price_aed": 120,
+    "tags": ["anti_colic", "bpa_free", "newborn", "silicone", "set"],
+    "age_range": "0-6 months",
+    "description": "Complete 6-piece feeding set with advanced venting system to reduce colic. Includes slow-flow silicone nipples mimicking natural breastfeeding."
+  },
+  {
+    "id": 4,
+    "name": "Organic Coconut Baby Wash & Shampoo",
+    "category": "Bath & Skin Care",
+    "price_aed": 65,
+    "tags": ["organic", "tear_free", "sensitive_skin", "coconut", "natural"],
+    "age_range": "0-6 months",
+    "description": "Certified organic 2-in-1 wash infused with virgin coconut oil and chamomile. Pediatrician-tested for eczema-prone skin. UAE climate suitable."
+  },
+  {
+    "id": 5,
+    "name": "Montessori Wooden Sensory Activity Cube",
+    "category": "Toys",
+    "price_aed": 150,
+    "tags": ["montessori", "wooden", "educational", "sensory", "sustainable"],
+    "age_range": "1-3 years",
+    "description": "Handcrafted beechwood activity cube featuring bead maze, shape sorter, and gears. Non-toxic water-based paints. Develops fine motor skills and problem-solving."
+  },
+  {
+    "id": 6,
+    "name": "DreamCloud Baby Cot with Mattress",
+    "category": "Nursery & Bedroom",
+    "price_aed": 480,
+    "tags": ["convertible", "newborn", "nursery", "storage", "adjustable"],
+    "age_range": "0-6 months",
+    "description": "Convertible 3-in-1 cot bed with 4 adjustable mattress heights. Includes anti-suffocation mattress. Converts to toddler bed. UAE home delivery."
+  },
+  {
+    "id": 7,
+    "name": "Desert Bloom Maternity Nursing Dress",
+    "category": "Moms",
+    "price_aed": 220,
+    "tags": ["nursing", "modest", "breathable", "pockets", "elegant"],
+    "age_range": "mom",
+    "description": "Stylish modal-blend nursing dress with discreet zip access. Designed for UAE climate with moisture-wicking fabric. Suitable for post-partum and beyond."
+  },
+  {
+    "id": 8,
+    "name": "Baby Shower Essential Gift Hamper",
+    "category": "Gifts",
+    "price_aed": 350,
+    "tags": ["newborn", "hamper", "organic", "luxury", "gift_set"],
+    "age_range": "0-6 months",
+    "description": "Curated luxury hamper with organic cotton onesies, bamboo swaddle, natural rubber pacifier, and sensitive skin balm. Arrives in a keepsake woven basket."
+  },
+  {
+    "id": 9,
+    "name": "RashGuard Natural Zinc Diaper Cream",
+    "category": "Diapering",
+    "price_aed": 55,
+    "tags": ["organic", "zinc_oxide", "sensitive_skin", "rash_prevention", "natural"],
+    "age_range": "0-6 months",
+    "description": "Extra-strength 18% zinc oxide barrier cream with calendula and shea butter. Soothes and prevents diaper rash without petroleum. Reef-safe."
+  },
+  {
+    "id": 10,
+    "name": "ErgoTummy High Chair with 3-in-1 Tray",
+    "category": "Feeding",
+    "price_aed": 380,
+    "tags": ["adjustable", "easy_clean", "growth", "ergonomic", "safety_harness"],
+    "age_range": "6-12 months",
+    "description": "Scandinavian design high chair with dishwasher-safe tray inserts. Grows with child from infant to preschooler. Anti-tip legs and 5-point harness."
+  },
+  {
+    "id": 11,
+    "name": "Little Climbers Soft Foam Play Blocks",
+    "category": "Toys",
+    "price_aed": 95,
+    "tags": ["soft_play", "motor_skills", "stacking", "non-toxic", "colorful"],
+    "age_range": "6-12 months",
+    "description": "Set of 12 squeezable foam blocks with embossed animals and numbers. Water-resistant and easy wipe-down. Encourages crawling and stacking."
+  },
+  {
+    "id": 12,
+    "name": "Serenity Weighted Sleep Sack 0.5 TOG",
+    "category": "Nursery & Bedroom",
+    "price_aed": 135,
+    "tags": ["weighted", "sleep_sack", "breathable", "cotton", "tog_rated"],
+    "age_range": "6-12 months",
+    "description": "Gently weighted sleep sack designed for UAE room temperatures (22-25°C). Reversible zip for easy changes. Promotes secure, longer sleep cycles."
+  },
+  {
+    "id": 13,
+    "name": "Blooming Belly Stretch Mark Oil Serum",
+    "category": "Moms",
+    "price_aed": 140,
+    "tags": ["organic", "stretch_marks", "pregnancy", "vegan", "firming"],
+    "age_range": "mom",
+    "description": "Intensive pregnancy oil with rosehip, vitamin E, and frankincense. Clinically tested for elasticity. Absorbs quickly for massage without greasy residue."
+  },
+  {
+    "id": 14,
+    "name": "Ramadan Newborn Welcome Gift Box",
+    "category": "Gifts",
+    "price_aed": 250,
+    "tags": ["ramadan", "newborn", "luxury", "personalized", "keepsake"],
+    "age_range": "0-6 months",
+    "description": "Elegant gift box featuring muslin swaddle, embroidered prayer dress, organic date syrup, and gold-plated name bracelet. Perfect Eid or Aqiqah present."
+  },
+  {
+    "id": 15,
+    "name": "SwimSure Reusable Swim Nappies (Pack of 3)",
+    "category": "Diapering",
+    "price_aed": 95,
+    "tags": ["reusable", "swim", "eco_friendly", "adjustable", "leak_proof"],
+    "age_range": "1-3 years",
+    "description": "Adjustable snap-fit swim diapers with hydrophobic outer layer. Prevents pool accidents without absorbing water. Ideal for Dubai beach days."
+  },
+  {
+    "id": 16,
+    "name": "CoolGrip Silicone Teething Feeder Fruit Paci",
+    "category": "Feeding",
+    "price_aed": 45,
+    "tags": ["teething", "baby_led_weaning", "silicone", "freezer_safe", "choking_prevention"],
+    "age_range": "6-12 months",
+    "description": "Mesh-free silicone feeder for introducing fresh fruits safely. Dual-purpose teether soothes sore gums. Twist-lock top prevents messy leaks."
+  },
+  {
+    "id": 17,
+    "name": "Cruisin' 360 Convertible Car Seat",
+    "category": "Gear",
+    "price_aed": 500,
+    "tags": ["car_seat", "convertible", "safety", "isofix", "rotation"],
+    "age_range": "0-6 months",
+    "description": "Rotating car seat with easy 360° swivel for loading. Extended rear-facing up to 18kg. Side-impact protection pods. UAE road safety approved."
+  },
+  {
+    "id": 18,
+    "name": "Splish Splash Bath Toy Organizer & Set",
+    "category": "Bath & Skin Care",
+    "price_aed": 75,
+    "tags": ["bath_toys", "mold_free", "storage", "fun", "sensory"],
+    "age_range": "6-12 months",
+    "description": "Quick-dry mesh organizer basket with 5 seal-tight bath toys. No holes prevent internal mold. Attaches to tile with strong suction cups."
+  },
+  {
+    "id": 19,
+    "name": "Toddler Trail Cotton Twill Overalls",
+    "category": "Clothes",
+    "price_aed": 90,
+    "tags": ["durable", "cotton", "adjustable_straps", "playwear", "neutral"],
+    "age_range": "1-3 years",
+    "description": "Soft-washed cotton twill overalls with adjustable straps and reinforced knees. Roll-up cuffs for growth spurts. Deep pockets for treasures."
+  },
+  {
+    "id": 20,
+    "name": "Mama's Bliss Instant Lactation Tea",
+    "category": "Moms",
+    "price_aed": 45,
+    "tags": ["lactation", "organic", "caffeine_free", "fenugreek", "wellness"],
+    "age_range": "mom",
+    "description": "Aromatic herbal blend with fenugreek, fennel, and nettle to support milk supply. Caffeine-free and hydrating. Enjoy hot or iced in UAE heat."
+  },
+  {
+    "id": 21,
+    "name": "Little Astronaut Space Projector & Night Light",
+    "category": "Toys",
+    "price_aed": 130,
+    "tags": ["projector", "night_light", "space", "sleep_aid", "music"],
+    "age_range": "0-6 months",
+    "description": "Rotating star and galaxy projector with soft tummy light. Plays white noise and 3 lullabies. Auto-off timer. STEM-inspired bedroom decor."
+  },
+  {
+    "id": 22,
+    "name": "Cloth Diner Oeko-Tex Splash Mat",
+    "category": "Feeding",
+    "price_aed": 60,
+    "tags": ["waterproof", "eco_friendly", "easy_clean", "non_slip", "messy_play"],
+    "age_range": "6-12 months",
+    "description": "Absorbent fabric splat mat with waterproof backing. Catches dropped food and art supplies. Machine washable and non-PVC. Essential under high chairs."
+  },
+  {
+    "id": 23,
+    "name": "Tiny Trekkers Baby Carrier Sling",
+    "category": "Gear",
+    "price_aed": 280,
+    "tags": ["ergonomic", "breathable", "hands_free", "newborn_ready", "hip_seat"],
+    "age_range": "0-6 months",
+    "description": "Mesh panel structured carrier with built-in hip seat. Redistributes weight to prevent parent back pain. Suitable for UAE summer walks."
+  },
+  {
+    "id": 24,
+    "name": "CloudTouch Organic Jersey Crib Sheet",
+    "category": "Nursery & Bedroom",
+    "price_aed": 80,
+    "tags": ["organic", "jersey", "breathable", "nursery", "fitted"],
+    "age_range": "0-6 months",
+    "description": "Ultra-soft GOTS certified organic cotton fitted sheet. Deep pockets with full elastic edge. Breathable knit ideal for year-round use."
+  },
+  {
+    "id": 25,
+    "name": "SunSafe Explorer UPF 50+ Rashguard Set",
+    "category": "Clothes",
+    "price_aed": 110,
+    "tags": ["sun_protection", "rashguard", "swim", "upf_50", "hat_included"],
+    "age_range": "1-3 years",
+    "description": "Long-sleeve rashguard with matching swim shorts and bucket hat. Chlorine-resistant spandex blend. Essential for JBR beach playdates."
+  },
+  {
+    "id": 26,
+    "name": "Baby's First Eid Personalized Gift Box",
+    "category": "Gifts",
+    "price_aed": 320,
+    "tags": ["eid", "personalized", "luxury", "wedding", "keepsake_box"],
+    "age_range": "0-6 months",
+    "description": "White leather keepsake trunk engraved with baby's name. Contains organic onesie, jade teether, and 22k gold plated bismillah pendant."
+  },
+  {
+    "id": 27,
+    "name": "Pamper Routine Diaper Caddy Organizer",
+    "category": "Diapering",
+    "price_aed": 110,
+    "tags": ["organization", "nursery", "portable", "felt", "changing_station"],
+    "age_range": "0-6 months",
+    "description": "Divided felt caddy with carrying handles. Stores diapers, wipes, and creams neatly. Moves easily from nursery to living room."
+  },
+  {
+    "id": 28,
+    "name": "GentleWean Sippy Cup with Weighted Straw",
+    "category": "Feeding",
+    "price_aed": 50,
+    "tags": ["sippy_cup", "spill_proof", "bpa_free", "transition", "weighted_straw"],
+    "age_range": "6-12 months",
+    "description": "8oz transition cup teaching straw drinking. Weighted ball allows drinking at any angle. Leak-proof valve prevents spills in diaper bags."
+  },
+  {
+    "id": 29,
+    "name": "CalmBaby Essential Oil Diffuser for Nursery",
+    "category": "Nursery & Bedroom",
+    "price_aed": 170,
+    "tags": ["diffuser", "aromatherapy", "humidifier", "night_light", "quiet"],
+    "age_range": "0-6 months",
+    "description": "Ultrasonic cool-mist diffuser with adjustable output. Gentle night light with color rotation. Auto safety shut-off. Run time up to 10 hours."
+  },
+  {
+    "id": 30,
+    "name": "Flutter Sleeve Organic Cotton Dress",
+    "category": "Clothes",
+    "price_aed": 85,
+    "tags": ["organic", "twirl", "party", "breathable", "pockets"],
+    "age_range": "1-3 years",
+    "description": "Spin-ready organic cotton voile dress with ruffle flutter sleeves. Hidden side pockets and elastic back waist for independent dressing."
+  },
+  {
+    "id": 31,
+    "name": "Mama Sculpt Post-Natal Compression Leggings",
+    "category": "Moms",
+    "price_aed": 195,
+    "tags": ["compression", "post_partum", "high_waist", "breathable", "support"],
+    "age_range": "mom",
+    "description": "Medical-grade graduated compression leggings supporting core and pelvic floor recovery. High-waist smoothing panel. Grey melange fabric."
+  },
+  {
+    "id": 32,
+    "name": "Jungle Safari Animal Sound Puzzle",
+    "category": "Toys",
+    "price_aed": 70,
+    "tags": ["wooden", "sound", "interactive", "animals", "peg_puzzle"],
+    "age_range": "1-3 years",
+    "description": "6-piece wooden peg puzzle with realistic animal sounds activated by light sensor. Improves hand-eye coordination. Auto shut-off preserves battery."
+  },
+  {
+    "id": 33,
+    "name": "Desert Cool UV Protective Baby Tent",
+    "category": "Gear",
+    "price_aed": 250,
+    "tags": ["pop_up", "uv_protection", "beach", "portable", "breathable"],
+    "age_range": "0-6 months",
+    "description": "Instant pop-up sun shelter with UPF 50+ rating. Mesh sides for airflow. Sand pockets and stakes included. Packs flat into carry bag."
+  },
+  {
+    "id": 34,
+    "name": "Unscented Sensitive Baby Wipes (Pack of 12)",
+    "category": "Diapering",
+    "price_aed": 55,
+    "tags": ["unscented", "sensitive_skin", "biodegradable", "water_based", "bulk_pack"],
+    "age_range": "0-6 months",
+    "description": "99% water and plant-based wipes with zero fragrance or alcohol. Thick embossed sheet prevents tearing. Compostable fiber."
+  },
+  {
+    "id": 35,
+    "name": "Little Chef Silicone Feeding Bib with Catch Pocket",
+    "category": "Feeding",
+    "price_aed": 40,
+    "tags": ["waterproof", "easy_clean", "silicone", "adjustable", "crumb_catcher"],
+    "age_range": "6-12 months",
+    "description": "Soft, flexible silicone bib with deep spill pocket. Roll-up for travel. Stain-resistant and dishwasher safe. Adjustable neckband."
+  },
+  {
+    "id": 36,
+    "name": "Dream Drifter Woodland Musical Mobile",
+    "category": "Nursery & Bedroom",
+    "price_aed": 160,
+    "tags": ["musical", "woodland", "cot_mobile", "wind_up", "felt_animals"],
+    "age_range": "0-6 months",
+    "description": "Hand-felted woodland animal mobile playing Brahms Lullaby. Universal cot clamp. Soft grey and mint color palette promotes visual tracking."
+  },
+  {
+    "id": 37,
+    "name": "Knit Sweater Cardigan with Wooden Buttons",
+    "category": "Clothes",
+    "price_aed": 120,
+    "tags": ["knit", "organic_cotton", "layering", "winter", "neutral"],
+    "age_range": "6-12 months",
+    "description": "Chunky hand-knit organic cotton cardigan with natural coconut buttons. Loose weave allows airflow. Perfect for air-conditioned indoor play."
+  },
+  {
+    "id": 38,
+    "name": "Precious Moments Silver Birth Spoon",
+    "category": "Gifts",
+    "price_aed": 200,
+    "tags": ["keepsake", "silver", "personalized", "heirloom", "baby_shower"],
+    "age_range": "0-6 months",
+    "description": "94% pure silver baby spoon with intricate arabesque pattern on handle. Presented in satin-lined gift box. Customisable engraving included."
+  },
+  {
+    "id": 39,
+    "name": "Hammam Time Baby Soap Bar with Argan Oil",
+    "category": "Bath & Skin Care",
+    "price_aed": 35,
+    "tags": ["argan_oil", "hammam", "traditional", "eco_wrap", "shea_butter"],
+    "age_range": "0-6 months",
+    "description": "Moroccan-inspired triple-milled soap with organic argan and olive oils. Non-drying formula. Wrapped in compostable paper."
+  },
+  {
+    "id": 40,
+    "name": "Active Mama 2-in-1 Nursing & Fitness Top",
+    "category": "Moms",
+    "price_aed": 155,
+    "tags": ["activewear", "nursing", "breathable", "modest", "spf"],
+    "age_range": "mom",
+    "description": "Quick-dry UPF 30 workout top with hidden side ruching for discrete nursing. Built-in thumbholes and back ventilation. Gym or stroller runs."
+  },
+  {
+    "id": 41,
+    "name": "Rainbow Stacker Silicone Teething Rings",
+    "category": "Toys",
+    "price_aed": 80,
+    "tags": ["silicone", "stacking", "teething", "bath_toy", "dishwasher_safe"],
+    "age_range": "6-12 months",
+    "description": "7-piece rainbow stacker made from food-grade silicone. Soft texture soothes gums. Can be boiled for sterilization. Floats in bath."
+  },
+  {
+    "id": 42,
+    "name": "UltraSlim Changing Mat for Diaper Bag",
+    "category": "Diapering",
+    "price_aed": 70,
+    "tags": ["portable", "padded", "wipe_clean", "travel", "diaper_bag_essential"],
+    "age_range": "0-6 months",
+    "description": "Memory foam travel changing mat folding to clutch size. Waterproof PU surface with head cushion. Fits all standard diaper bags."
+  },
+  {
+    "id": 43,
+    "name": "Family-Style Insulated Baby Food Jar",
+    "category": "Feeding",
+    "price_aed": 65,
+    "tags": ["insulated", "stainless_steel", "puree", "thermos", "leak_proof"],
+    "age_range": "6-12 months",
+    "description": "6oz vacuum-insulated stainless steel jar keeping purees warm 5 hours. Wide mouth lid with spoon attachment. BPA-free lid."
+  },
+  {
+    "id": 44,
+    "name": "City Explorer Trike with Parent Push Handle",
+    "category": "Gear",
+    "price_aed": 350,
+    "tags": ["tricycle", "adjustable", "foldable", "canopy", "toddler_trike"],
+    "age_range": "1-3 years",
+    "description": "Foldable stroller trike with UV canopy and storage basket. 2-step transition from parent-steered to independent riding. Cup holder included."
+  },
+  {
+    "id": 45,
+    "name": "ButterSoft Muslin Swaddle Blanket (Set of 4)",
+    "category": "Nursery & Bedroom",
+    "price_aed": 120,
+    "tags": ["muslin", "swaddle", "breathable", "pre_washed", "versatile"],
+    "age_range": "0-6 months",
+    "description": "Extra-large 120x120cm bamboo muslin blankets. Thermoregulating open weave. Multi-use: nursing cover, stroller sun shade, or light blanket."
+  },
+  {
+    "id": 46,
+    "name": "Sleepy Striped Footie Pajamas",
+    "category": "Clothes",
+    "price_aed": 75,
+    "tags": ["footie", "zip", "organic", "tight_fit", "sleepwear"],
+    "age_range": "6-12 months",
+    "description": "Footed ribbed organic cotton pajamas with two-way zipper for midnight changes. Non-slip soles for early walkers. Snug fit for safety."
+  },
+  {
+    "id": 47,
+    "name": "Nourish & Glow Belly Butter Balm",
+    "category": "Moms",
+    "price_aed": 95,
+    "tags": ["belly_butter", "whipped", "organic", "shea", "cocoa_butter"],
+    "age_range": "mom",
+    "description": "Intensely hydrating whipped body butter with cocoa and mango butter. Rich in fatty acids to maintain skin suppleness during and post pregnancy."
+  },
+  {
+    "id": 48,
+    "name": "Baby Arabic Alphabet Sound Book",
+    "category": "Toys",
+    "price_aed": 95,
+    "tags": ["bilingual", "arabic", "sound_book", "educational", "interactive"],
+    "age_range": "1-3 years",
+    "description": "Press-to-listen board book teaching Arabic letters with harakat. Includes nasheed mode and quiz function. Durable, wipe-clean pages."
+  },
+  {
+    "id": 49,
+    "name": "Newborn Milestone Blanket & Card Set",
+    "category": "Gifts",
+    "price_aed": 150,
+    "tags": ["personalized", "milestone", "photography", "keepsake", "newborn"],
+    "age_range": "0-6 months",
+    "description": "Soft fleece milestone blanket (100x100cm) with wooden week/month cards. Perfect frame for monthly Insta-worthy photos. Neutral design."
+  },
+  {
+    "id": 50,
+    "name": "Junior Explorer Sun Bucket Hat with Neck Flap",
+    "category": "Clothes",
+    "price_aed": 55,
+    "tags": ["sun_hat", "uv_protection", "adjustable", "chin_strap", "flap"],
+    "age_range": "1-3 years",
+    "description": "Quick-dry fishing-style bucket hat with removable neck shield. UPF 50+ fabric. Elasticated drawstring keeps hat secure on windy marina walks."
+  },
+  {
+    "id": 51,
+    "name": "Natural Rubber Pacifier Orthodontic (Pack of 2)",
+    "category": "Feeding",
+    "price_aed": 40,
+    "tags": ["orthodontic", "natural_rubber", "newborn", "soother", "vented"],
+    "age_range": "0-6 months",
+    "description": "Rounded shield mushie pacifiers with airflow holes. Butterfly shape avoids chafing. Sterilizer case included. Latex-free soft tip."
+  },
+  {
+    "id": 52,
+    "name": "Foldaway Baby Bath Tub with Support Hammock",
+    "category": "Bath & Skin Care",
+    "price_aed": 130,
+    "tags": ["foldable", "newborn", "hammock", "non_slip", "space_saving"],
+    "age_range": "0-6 months",
+    "description": "Space-saving collapsible bath tub with thick thermal foam walls. Removable mesh hammock supports newborn. Dries quickly after use."
+  },
+  {
+    "id": 53,
+    "name": "Cozy Cabin Wooden Bookcase Organizer",
+    "category": "Nursery & Bedroom",
+    "price_aed": 240,
+    "tags": ["bookshelf", "wooden", "montessori", "storage", "display"],
+    "age_range": "1-3 years",
+    "description": "Front-facing sling bookshelf in white oak. Fits up to 25 picture books. Encourages independent reading at low height. Wall anchor included."
+  },
+  {
+    "id": 54,
+    "name": "Glam Mama Gold Locket Photo Necklace",
+    "category": "Moms",
+    "price_aed": 210,
+    "tags": ["jewelry", "personalized", "photo_locket", "gold_plated", "keepsake"],
+    "age_range": "mom",
+    "description": "18k gold-plated heart locket with crystal accents. Holds two baby photos inside. Lightweight chain suitable for everyday wear."
+  },
+  {
+    "id": 55,
+    "name": "GripSock First Walker Socks (Set of 5)",
+    "category": "Clothes",
+    "price_aed": 50,
+    "tags": ["grip_socks", "non_slip", "cotton", "walker", "bulk_pack"],
+    "age_range": "6-12 months",
+    "description": "Soft combed cotton socks with full-sole silicone grips. Stay-on cuff technology prevents slipping off. Helps early walkers on marble floors."
+  },
+  {
+    "id": 56,
+    "name": "AquaPlay Bath Pipe and Funnel Kit",
+    "category": "Toys",
+    "price_aed": 90,
+    "tags": ["bath_toy", "water_play", "suction_cups", "stem", "interactive"],
+    "age_range": "1-3 years",
+    "description": "Modular tube set suctioning to bath walls. Includes water wheel, funnel, and boat. Teaches cause and effect through hydrodynamics."
+  },
+  {
+    "id": 57,
+    "name": "Happy Tummy Probiotic Drops for Infants",
+    "category": "Feeding",
+    "price_aed": 85,
+    "tags": ["probiotic", "drops", "digestion", "newborn_safe", "colic_relief"],
+    "age_range": "0-6 months",
+    "description": "Clinically studied Bifidobacterium drops to balance gut flora. 5 billion CFU per dose. No dairy or gluten. Refrigerated upon arrival."
+  },
+  {
+    "id": 58,
+    "name": "Parent Console Deluxe Stroller Organizer",
+    "category": "Gear",
+    "price_aed": 95,
+    "tags": ["stroller_accessory", "cup_holder", "insulated", "phone_pocket", "universal"],
+    "age_range": "0-6 months",
+    "description": "Neoprene stroller organizer with insulated bottle pockets. Secure phone window with touch-screen compatible cover. Secure velcro straps."
+  },
+  {
+    "id": 59,
+    "name": "Twinkle Star Cashmere Blend Nursery Blanket",
+    "category": "Nursery & Bedroom",
+    "price_aed": 300,
+    "tags": ["cashmere", "heirloom", "luxury", "winter", "knitted"],
+    "age_range": "0-6 months",
+    "description": "Hand-knitted 70% merino 30% cashmere crib blanket. Star intarsia pattern. Size 80x100cm. Perfect for stroller on chilly desert evenings."
+  },
+  {
+    "id": 60,
+    "name": "New Grandmother Gold Heart Bangle",
+    "category": "Gifts",
+    "price_aed": 380,
+    "tags": ["grandmother_gift", "gold_plated", "adjustable", "jewelry", "sentimental"],
+    "age_range": "mom",
+    "description": "Adjustable stainless steel bangle with 18k gold plating. Engraved 'Best Teta/Tata' inscription inside. Elegant satin pouch included."
+  },
+  {
+    "id": 61,
+    "name": "Weekender Cotton Diaper Bag Backpack",
+    "category": "Diapering",
+    "price_aed": 230,
+    "tags": ["backpack", "diaper_bag", "insulated", "changing_pad", "cotton_canvas"],
+    "age_range": "0-6 months",
+    "description": "Washable cotton canvas backpack with 16 organizing pockets. Includes machine-washable changing mat and 2 insulated bottle holders. Gender-neutral."
+  },
+  {
+    "id": 62,
+    "name": "Silent Spin Wooden Rainbow Spinner",
+    "category": "Toys",
+    "price_aed": 45,
+    "tags": ["fidget", "wooden", "sensory", "montessori", "rainbow"],
+    "age_range": "1-3 years",
+    "description": "Hand-balanced beechwood spinner with rainbow discs. Mesmerizing continuous motion. Perfect calming tool for gentle play or fidgety hands."
+  },
+  {
+    "id": 63,
+    "name": "CoolWave Cotton Long-Sleeve Rashguard",
+    "category": "Clothes",
+    "price_aed": 80,
+    "tags": ["rashguard", "upf_50", "cotton_feel", "swim", "stretchy"],
+    "age_range": "6-12 months",
+    "description": "Cotton-soft technical fabric rashguard with flatlock seams. Chafe-free neck label. Coordinates with swim diaper for full beach outfit."
+  },
+  {
+    "id": 64,
+    "name": "Tummy Time Luxe Velvet Floor Mat",
+    "category": "Nursery & Bedroom",
+    "price_aed": 190,
+    "tags": ["tummy_time", "plush", "non_slip", "thick", "play_mat"],
+    "age_range": "0-6 months",
+    "description": "Extra-thick 2cm velvet top play mat (150x200cm). Double-sided with grey and blush. Non-toxic PE core; easy spot clean for spit-ups."
+  },
+  {
+    "id": 65,
+    "name": "Mama Glow Jade Facial Roller Set",
+    "category": "Moms",
+    "price_aed": 120,
+    "tags": ["skincare", "jade_roller", "facial", "self_care", "de_puffing"],
+    "age_range": "mom",
+    "description": "Authentic jade dual-ended roller and gua sha board set. Reduces morning puffiness. Soothing cooling sensation. Velvet storage pouch included."
+  },
+  {
+    "id": 66,
+    "name": "Organic Tummy Calm Colic Massage Oil",
+    "category": "Bath & Skin Care",
+    "price_aed": 70,
+    "tags": ["massage_oil", "colic", "organic", "warming", "digestive"],
+    "age_range": "0-6 months",
+    "description": "Ayurvedic-inspired warm oil blend with fennel and cardamom. Gentle clockwise massage technique aiding trapped gas relief. Pediatrician approved."
+  },
+  {
+    "id": 67,
+    "name": "Double Zip Preemie & Newborn Gift Set",
+    "category": "Gifts",
+    "price_aed": 180,
+    "tags": ["preemie", "newborn", "gift_set", "zip_sleepers", "essentials"],
+    "age_range": "0-6 months",
+    "description": "Thoughtful 5-piece set for tiny arrivals (up to 3.5kg). Includes 2 zip sleepers, mittens, hat, and receiving blanket. Hospital bag ready."
+  },
+  {
+    "id": 68,
+    "name": "Magic Mat Suction Bowl and Utensil Set",
+    "category": "Feeding",
+    "price_aed": 70,
+    "tags": ["suction_bowl", "baby_led_weaning", "silicone", "messy_play", "utensils"],
+    "age_range": "6-12 months",
+    "description": "Divided plate with extra-strong suction base and 2 short-handled spoons. Resists determined toddler tipping. Microwave safe silicone."
+  },
+  {
+    "id": 69,
+    "name": "All-Terrain Jogging Stroller",
+    "category": "Gear",
+    "price_aed": 460,
+    "tags": ["jogging", "all_terrain", "hand_brake", "canopy", "shock_absorption"],
+    "age_range": "6-12 months",
+    "description": "Air-filled rubber tire stroller with front swivel lockdown. Twist hand brake for downhill control. Suitable for desert tracks and pavement runs."
+  },
+  {
+    "id": 70,
+    "name": "Musical Learning Walker Activity Center",
+    "category": "Toys",
+    "price_aed": 210,
+    "tags": ["push_walker", "activity_center", "educational", "music", "wooden"],
+    "age_range": "1-3 years",
+    "description": "Sturdy wooden walker wagon with governor brakes. Front panel includes xylophone, maze, and counting beads. Supports first steps confidently."
+  },
+  {
+    "id": 71,
+    "name": "Swaddle Up Transition Bag with Arms Up",
+    "category": "Nursery & Bedroom",
+    "price_aed": 110,
+    "tags": ["transition_swaddle", "arms_up", "self_soothing", "zipper", "cotton"],
+    "age_range": "0-6 months",
+    "description": "Unique Arms-Up design allowing natural hand-to-face self-soothing. Twin zipper for easy night changes. Calm morph-suit fit mimics the womb."
+  },
+  {
+    "id": 72,
+    "name": "Reversible Bucket Sun Hat (Toddler)",
+    "category": "Clothes",
+    "price_aed": 45,
+    "tags": ["reversible", "sun_hat", "cotton", "string", "travel"],
+    "age_range": "1-3 years",
+    "description": "Fully reversible cotton twill hat with 2 patterns in 1. Break-away safety chin strap. Packs flat for luggage without losing shape."
+  },
+  {
+    "id": 73,
+    "name": "Postpartum Wellness Herbal Sitz Bath",
+    "category": "Moms",
+    "price_aed": 55,
+    "tags": ["post_partum", "herbal", "organic", "healing", "bath_soak"],
+    "age_range": "mom",
+    "description": "Soluble sachets with organic witch hazel, lavender, and rosemary. Soothing peri-bath soak promoting natural recovery and relaxation."
+  },
+  {
+    "id": 74,
+    "name": "Sensory Discovery Touch and Feel Board Book Set",
+    "category": "Toys",
+    "price_aed": 85,
+    "tags": ["books", "touch_and_feel", "sensory", "baby_shower", "tactile"],
+    "age_range": "0-6 months",
+    "description": "Set of 4 sturdy board books: Animals, Colors, Shapes, First Words. High-contrast elements and tactile fabrics support early brain development."
+  },
+  {
+    "id": 75,
+    "name": "Daddy's Workshop Mini Toy Tool Bench",
+    "category": "Gifts",
+    "price_aed": 130,
+    "tags": ["wooden", "role_play", "dad_gift", "tools", "montessori"],
+    "age_range": "1-3 years",
+    "description": "Compact wooden workbench with nuts, bolts, hammer, and saw. Painted with lead-free colors. Perfect fine motor activity with dad."
+  },
+  {
+    "id": 76,
+    "name": "ComfyBoots Soft Sole Leather Shoes",
+    "category": "Clothes",
+    "price_aed": 90,
+    "tags": ["leather", "soft_sole", "first_shoes", "ankle_support", "breathable"],
+    "age_range": "6-12 months",
+    "description": "Hand-stitched genuine leather crib shoes with elastic ankle. Flexible zero-drop sole mimics barefoot walking. Suede non-slip bottom."
+  },
+  {
+    "id": 77,
+    "name": "Travel Buddy Car Seat Protector & Organizer",
+    "category": "Gear",
+    "price_aed": 80,
+    "tags": ["car_organizer", "kick_mat", "travel", "storage", "easy_clean"],
+    "age_range": "1-3 years",
+    "description": "Heavy-duty seat back cover with 4 storage pockets. Protects upholstery from muddy shoes. Transparent tablet holder for road trips."
+  },
+  {
+    "id": 78,
+    "name": "Natural Dyes Scented Play Dough Kit",
+    "category": "Toys",
+    "price_aed": 65,
+    "tags": ["play_dough", "non_toxic", "sensory", "creative", "homemade_texture"],
+    "age_range": "1-3 years",
+    "description": "Set of 6 soft dough tubs colored with fruit extracts. Calming lavender and citrus scents. Safe if tasted, but tastes salty."
+  },
+  {
+    "id": 79,
+    "name": "Deep Sleep White Noise Machine & Shusher",
+    "category": "Nursery & Bedroom",
+    "price_aed": 140,
+    "tags": ["white_noise", "sleep_aid", "portable", "shusher", "rechargeable"],
+    "age_range": "0-6 months",
+    "description": "Portable sound machine with rhythmic shush, fan, and rain tracks. Adaptive technology adjusts volume to ambient noise. Clip to stroller."
+  },
+  {
+    "id": 80,
+    "name": "Golden Dhow Wooden Toy Boat",
+    "category": "Toys",
+    "price_aed": 105,
+    "tags": ["uae_culture", "wooden", "boat", "bath_toy", "heirloom"],
+    "age_range": "1-3 years",
+    "description": "Handmade wooden dhow boat with fabric sail. Water-sealed for bath play. Celebrates UAE maritime heritage in a modern toy."
+  },
+  {
+    "id": 81,
+    "name": "Breastfeeding Essentials Multi-Pack Kit",
+    "category": "Moms",
+    "price_aed": 155,
+    "tags": ["breastfeeding", "nipple_cream", "pads", "storage_bags", "nursing"],
+    "age_range": "mom",
+    "description": "Hospital bag starter containing lanolin cream, 10 washable pads, 20 milk storage bags, and gel soothies in a compact cosmetic case."
+  },
+  {
+    "id": 82,
+    "name": "Eco Nappy Pail Refillable Wet Bag",
+    "category": "Diapering",
+    "price_aed": 60,
+    "tags": ["wet_bag", "reusable", "waterproof", "cloth_diapers", "travel"],
+    "age_range": "0-6 months",
+    "description": "Large capacity wet/dry zip bag with two compartments. Holds 8-10 cloth diapers. Machine washable and seal-tight. No pail liner required."
+  },
+  {
+    "id": 83,
+    "name": "Bite-Sized Baby Food Freezer Tray with Lid",
+    "category": "Feeding",
+    "price_aed": 35,
+    "tags": ["freezer", "baby_food", "silicone", "portion_control", "meal_prep"],
+    "age_range": "6-12 months",
+    "description": "Flexible silicone tray with 9x 1oz pods. Perfect for batch-freezing purees. Push-up base for easy cube removal. Drip-free lid included."
+  },
+  {
+    "id": 84,
+    "name": "Cozy Kicks Animal Face Slipper Socks",
+    "category": "Clothes",
+    "price_aed": 40,
+    "tags": ["slippers", "fleece", "grip_socks", "indoor", "cute"],
+    "age_range": "1-3 years",
+    "description": "Fuzzy polar fleece slippers with non-slip tread pattern. 3D panda and lion faces stimulate imaginative floor play. Machine washable."
+  },
+  {
+    "id": 85,
+    "name": "Golden Hour Birthdate Candle Set",
+    "category": "Gifts",
+    "price_aed": 85,
+    "tags": ["scented_candle", "birthday", "keepsake", "personalized", "baby_shower"],
+    "age_range": "mom",
+    "description": "Soy wax candle infused with 'baby powder' scent. Custom cotton label with birth date, weight, and name. Lovely centerpiece for welcome home."
+  },
+  {
+    "id": 86,
+    "name": "Toddler Tower Montessori Learning Stool",
+    "category": "Nursery & Bedroom",
+    "price_aed": 290,
+    "tags": ["kitchen_helper", "montessori", "adjustable", "wooden", "safety_rails"],
+    "age_range": "1-3 years",
+    "description": "Solid birch standing tower with adjustable platform. Allows safe participation in kitchen activities. Foldable for compact storage."
+  },
+  {
+    "id": 87,
+    "name": "Baby Lotion Bar Solid Moisturizer Stick",
+    "category": "Bath & Skin Care",
+    "price_aed": 45,
+    "tags": ["lotion_bar", "solid", "travel_friendly", "zero_waste", "shea"],
+    "age_range": "6-12 months",
+    "description": "Mess-free massage bar in biodegradable push tube. Cocoa butter and mango seed oil base. Melts instantly on warm skin. TSA-ready."
+  },
+  {
+    "id": 88,
+    "name": "Active Stroll UV Net and Rain Shield Set",
+    "category": "Gear",
+    "price_aed": 75,
+    "tags": ["stroller_accessory", "universal", "uv_protection", "rain_cover", "airflow"],
+    "age_range": "0-6 months",
+    "description": "Two-pack of transparent UV shield (blocks 80% sun) and storm rain cover. Ventilated mesh side windows. Stretchy elastic fits most buggies."
+  },
+  {
+    "id": 89,
+    "name": "Pocket Farm Interactive Soft Book",
+    "category": "Toys",
+    "price_aed": 60,
+    "tags": ["soft_book", "finger_puppets", "farm", "storytelling", "washable"],
+    "age_range": "0-6 months",
+    "description": "Cloth activity book with removable barn finger puppets. Crinkle pages and squeaker stimulate auditory skills. Machine wash cold."
+  },
+  {
+    "id": 90,
+    "name": "Four Seasons Adjustable Sleep Bag 2.5 TOG",
+    "category": "Nursery & Bedroom",
+    "price_aed": 160,
+    "tags": ["sleep_bag", "four_seasons", "adjustable", "organic", "duvet_weight"],
+    "age_range": "6-12 months",
+    "description": "Unique design with zip-off sleeves and inner layer. Converts from 2.5 TOG winter to 0.5 TOG summer. 400-thread count cotton lining."
+  },
+  {
+    "id": 91,
+    "name": "Mum's Essential Wardrobe Nursing Cami Set",
+    "category": "Moms",
+    "price_aed": 120,
+    "tags": ["nursing", "camisole", "essentials", "modal", "set_of_2"],
+    "age_range": "mom",
+    "description": "Two-pack ultra-soft modal nursing camis with clip-down cups. Built-in shelf bra. Perfect layering piece for cardigans or blazers."
+  },
+  {
+    "id": 92,
+    "name": "Babywearing Coat Extender Cover Panel",
+    "category": "Gear",
+    "price_aed": 180,
+    "tags": ["babywearing", "winter", "maternity_coat", "universal_zip", "warm"],
+    "age_range": "0-6 months",
+    "description": "Quilted fleece-lined insert panel adapting any zip coat to babywearing. Allows skin-to-skin warmth without exposing parent to cold."
+  },
+  {
+    "id": 93,
+    "name": "Newborn Cotton Snap Bodysuits (Pack of 8)",
+    "category": "Clothes",
+    "price_aed": 95,
+    "tags": ["newborn", "bodysuits", "cotton", "lap_shoulder", "essential"],
+    "age_range": "0-6 months",
+    "description": "Bulk pack of short-sleeve envelope neck bodysuits. Easy snap bottom changes. White and pastels. Hospital bag staple."
+  },
+  {
+    "id": 94,
+    "name": "Cocomelon Sing-Along Boombox Toy",
+    "category": "Toys",
+    "price_aed": 115,
+    "tags": ["musical", "cocomelon", "light_up", "karaoke", "portable"],
+    "age_range": "1-3 years",
+    "description": "Kid-safe boombox playing 8 nursery rhymes with flashing lights. Built-in microphone for sing-alongs. Volume limiter protects hearing."
+  },
+  {
+    "id": 95,
+    "name": "Eucalyptus Vapor Bath Soak for Colds",
+    "category": "Bath & Skin Care",
+    "price_aed": 50,
+    "tags": ["vapor", "eucalyptus", "congestion", "organic", "bath_soak"],
+    "age_range": "6-12 months",
+    "description": "Natural cold relief crystals with eucalyptus, rosemary, and peppermint. Sprinkle in warm bath for soothing steam therapy. Suitable 6+ months."
+  },
+  {
+    "id": 96,
+    "name": "Little Paws Pull-Along Wooden Dog Toy",
+    "category": "Toys",
+    "price_aed": 75,
+    "tags": ["pull_along", "wooden", "classic", "pet", "walking"],
+    "age_range": "1-3 years",
+    "description": "Dachshund shape pull-toy with wagging tail mechanism. Paint-free rubberwood construction. Encourages walking and motor planning."
+  },
+  {
+    "id": 97,
+    "name": "Co-Sleeper Breathable Mesh Bed Rail",
+    "category": "Nursery & Bedroom",
+    "price_aed": 195,
+    "tags": ["bed_rail", "co_sleeping", "mesh", "fold_down", "travel"],
+    "age_range": "1-3 years",
+    "description": "82cm safety guardrail with breathable mesh. Push-button quiet fold-down for easy access. Portable for hotel co-sleeping setups."
+  },
+  {
+    "id": 98,
+    "name": "Silverette Nursing Cups Nipple Shield",
+    "category": "Moms",
+    "price_aed": 170,
+    "tags": ["silver", "breastfeeding", "nipple_shield", "healing", "natural"],
+    "age_range": "mom",
+    "description": "Pure 925 silver cups worn inside bra to heal and protect sore nipples. Antimicrobial properties eliminate creams. Reusable for years."
+  },
+  {
+    "id": 99,
+    "name": "Sesame Street Abby's Magic Garden Playdoh Set",
+    "category": "Toys",
+    "price_aed": 60,
+    "tags": ["playdoh", "sesame_street", "creative", "modeling", "accessories"],
+    "age_range": "1-3 years",
+    "description": "Non-toxic Play-Doh compound with Abby Cadabby stamper and fairy garden molds. Encourages storytelling and fine motor sculpting."
+  },
+  {
+    "id": 100,
+    "name": "Family Matching Eid Pajama Set (Parent + Child)",
+    "category": "Clothes",
+    "price_aed": 250,
+    "tags": ["matching", "eid", "pajamas", "family", "jersey"],
+    "age_range": "1-3 years",
+    "description": "Premium cotton-modal jersey sets for dad, mom, child, and toddler. Includes 2 adult + 2 kids pieces. Perfect Eid morning photos."
+  }
+]

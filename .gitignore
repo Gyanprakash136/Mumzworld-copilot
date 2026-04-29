@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment & secrets
+.env
+.env.*
+*.key
+
+# Data / local DBs (too large for git, regenerated via seed_db.py)
+data/chroma/
+data/mumzworld.db
+data/eval_results_*.json
+
+# Streamlit cache
+.streamlit/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
