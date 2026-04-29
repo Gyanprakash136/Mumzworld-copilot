@@ -285,17 +285,7 @@ These map to Mumzworld's two highest-volume customer touchpoints. The combinatio
 | **SQLite** | Canonical product store, zero-config |
 | **Antigravity (Google DeepMind)** | AI coding assistant — primary development harness |
 
-### How I used Antigravity (interaction modes)
 
-| Phase | Mode | What happened |
-|-------|------|---------------|
-| **Architecture design** | Pair-coding | Described the spec; agent proposed module boundaries (`core/`, `db/`, `tools/`, `models/`) and I approved the structure before any code was written |
-| **Initial scaffolding** | Full agent loop | Agent read the spec, reasoned about dependencies, then wrote all files in sequence — `schemas.py` → `database.py` → `retrieval.py` → `router.py` → `gift_finder.py` → `support.py` → `main.py` |
-| **LLM provider migration** | Full agent loop | When OpenRouter models returned 404, the agent diagnosed the issue, fetched the live model list from the OpenRouter API, identified correct free model IDs, and updated `llm_client.py` — I only confirmed the final provider choice (Groq) |
-| **ChromaDB integration** | Full agent loop | Agent replaced Pinecone with ChromaDB across `retrieval.py`, `seed_db.py`, and `requirements.txt` in one pass, including the auto-sync-on-empty logic |
-| **Eval design** | Pair-coding | I specified the 4 rubric dimensions (route, response, escalation, uncertainty); agent implemented the scoring loop, table formatting, and JSON export |
-| **UI rewrite** | One-shot generation | Described "production-level dark theme" → agent generated the full Streamlit CSS + component layout in one call |
-| **README** | Iterative | Three rounds: initial draft → gap analysis against assignment spec → full rewrite to cover all required sections |
 
 ### What worked
 
